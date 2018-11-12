@@ -1,0 +1,17 @@
+<!ELEMENT userprofile (user)>
+<!ELEMENT user (image_url,name,birthday_date, address,
+email, language,usr, position, telephone, branch
+)>
+<!ELEMENT image_url (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday_date (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT usr (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+
+<!ATTLIST  user id CDATA #REQUIRED>
+<!ATTLIST  branch address CDATA #REQUIRED>

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="Location.xsl"?>
+<!DOCTYPE cinema SYSTEM "Location.dtd">
+
+<cinema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Location.xsd">
+<theatre>
+		<location>IOI MALL, KULAI</location>
+		<noOfHall>6</noOfHall>
+		<seatingCapacity>921</seatingCapacity>
+	</theatre>
+
+	<theatre>
+		<location>PARADIGM MALL, JOHOR BARRU</location>
+		<noOfHall>16</noOfHall>
+		<seatingCapacity>582</seatingCapacity>
+	</theatre>
+
+	<theatre>
+		<location>ALOR STAR MALL , ALOR SETAR</location>
+		<noOfHall>6</noOfHall>
+		<seatingCapacity>867</seatingCapacity>
+	</theatre>
+
+	<theatre>
+		<location>MIDVALLEY MEGAMALL, MID VALLEY CITY</location>
+		<noOfHall>21</noOfHall>
+		<seatingCapacity>2763</seatingCapacity>
+	</theatre>
+
+	<theatre>
+		<location>PAVILION MALL, BUKIT BINTANG</location>
+		<noOfHall>13</noOfHall>
+		<seatingCapacity>1913</seatingCapacity>
+	</theatre>
+	
+	<theatre>
+		<location>QUILL CITY MALL , JALAN SULTAN ISMAIL</location>
+		<noOfHall>10</noOfHall>
+		<seatingCapacity>1751</seatingCapacity>
+	</theatre>
+
+	<theatre>
+		<location>SUNWAY VELOCITY MALL, CHERAS </location>
+		<noOfHall>9</noOfHall>
+		<seatingCapacity>1638</seatingCapacity>
+	</theatre>
+
+	<theatre>
+		<location>WANGSA WALK MALL, WANGSA MAJU</location>
+		<noOfHall>13</noOfHall>
+		<seatingCapacity>1913</seatingCapacity>
+	</theatre>
+	
+	<theatre>
+		<location>DATARAN PAHLAWAN MALACCA MALL, BANDAR HILIR </location>
+		<noOfHall>10</noOfHall>
+		<seatingCapacity>2004</seatingCapacity>
+	</theatre>
+
+	<theatre>
+		<location>GURNEY PARAGON MALL, GEORGETOWN</location>
+		<noOfHall>9</noOfHall>
+		<seatingCapacity>1298</seatingCapacity>
+	</theatre>
+
+</cinema>

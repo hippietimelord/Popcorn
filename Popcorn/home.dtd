@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT home (movie*)>
+<!ELEMENT movie (name|desc|rating|genre|director|writer|release_date|studio)*>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT studio (#PCDATA)>

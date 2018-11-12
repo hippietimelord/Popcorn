@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="home.xsl"?>
+<!DOCTYPE home SYSTEM "home.dtd">	
+<home xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="home.xsd">
+	<movie>
+		<name>Ant-Man &amp; The Wasp</name>
+		<desc>From the Marvel Cinematic Universe comes a new chapter 
+		featuring heroes with the astonishing ability to shrink: "Ant-Man 
+		and The Wasp." In the aftermath of "Captain America: Civil War," 
+		Scott Lang (Rudd) grapples with the consequences of his choices 
+		as both a Super Hero and a father. As he struggles to rebalance 
+		his home life with his responsibilities as Ant-Man, he's confronted 
+		by Hope van Dyne (Lilly) and Dr. Hank Pym (Douglas) with an 
+		urgent new mission. Scott must once again put on the suit and learn 
+		to fight alongside The Wasp as the team works together to uncover secrets 
+		from their past.</desc>
+		<rating>NR (for come sci-fi action violence)</rating>
+		<genre>Action &amp; Adventure, Comedy, Science Fiction &amp; Fantasy</genre>
+		<director>Peyton Reed</director>
+		<writer>Andrew Barrer, Gabriel Ferrari</writer>
+		<release_date>Jul 6, 2018  Wide</release_date>
+		<studio>Walt Disney Pictures</studio>
+	</movie>
+</home>

@@ -1,0 +1,17 @@
+<!ELEMENT adminprofile (admin)>
+<!ELEMENT admin (image_url,name,birthday_date, address,
+email, language,employee, position, telephone, branch
+)>
+<!ELEMENT image_url (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday_date (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT employee (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+
+<!ATTLIST  admin id CDATA #REQUIRED>
+<!ATTLIST  branch address CDATA #REQUIRED>

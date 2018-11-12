@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>Popcorn</title>
+   <link rel="stylesheet" href="nav.css" type="text/css" />
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+</head>
+
+<head>
+	<style>
+		h1 {
+			color: rgb(255, 92, 92);
+			padding: 5px 12px;
+			font-family: 'Arial';
+			text-align: center;
+			text-decoration: underline;
+		}
+		h3 {
+			color: white;
+			padding: 5px 12px;
+			font-family: 'Arial';
+		}
+		.center {
+			margin: auto;
+			width: 100%;
+			padding: 10px ;
+		}
+		#left {
+			float: left;
+			width: 35%;	
+		}
+
+		#right {
+			float: right;
+			width: 62%;
+		}
+		form {
+			text-align: center;
+		}
+		.button {
+			background-color: rgb(193, 193, 193);
+			border: none;
+			color: black;
+			padding: 15px 35px;
+			font-family: 'Arial';
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+	</style>
+	<script>
+	$(document).ready(function(){
+		$.ajax({
+			type: "GET",
+			url: "moviecatalog.xml",
+			dataType: "xml",
+			success: function(xml) {
+			var select = $('#MovieSelection');
+
+			$(xml).find('catalog').each(function(){
+				$(this).find('title').each(function(){
+					var value = $(this).text();
+					select.append("<option class='ddindent' value='"+ value +"'>"+value+"</option>");
+					});
+				});
+			select.children(":first").text("Select a movie").attr("selected",true);
+			}
+		}); 
+	}); 
+	$(document).ready(function(){
+		$.ajax({
+			type: "GET",
+			url: "Location.xml",
+			dataType: "xml",
+			success: function(xml) {
+			var select = $('#CinemaSelection');
+
+			$(xml).find('cinema').each(function(){
+				$(this).find('location').each(function(){
+					var value = $(this).text();
+					select.append("<option class='ddindent' value='"+ value +"'>"+value+"</option>");
+					});
+				});
+			select.children(":first").text("Select a cinema").attr("selected",true);
+			}
+		}); 
+	}); 
+	$(document).ready(function(){
+		$.ajax({
+			type: "GET",
+			url: "moviecatalog.xml",
+			dataType: "xml",
+			success: function(xml) {
+			var select = $('#SessionSelection');
+
+			$(xml).find('catalog').each(function(){
+				$(this).find('session').each(function(){
+					var value = $(this).text();
+					select.append("<option class='ddindent' value='"+ value +"'>"+value+"</option>");
+					});
+				});
+			select.children(":first").text("Select a session").attr("selected",true);
+			}
+		}); 
+	}); 
+	</script>
+</head>
+<body>
+	<main>
+		<ul>
+			<li style="float:left;"><img src="images/logo.png" alt="Logo" style="width: 100px;"></li>
+			<li><a class="active" href="home.html">Home</a></li>
+			<li><a href="moviecatalog.html">Catalog</a></li>
+			<li><a href="Location.html">Location</a></li>
+			<div class="dropdown">
+				<li><a>Profiles</a>
+				<div class="dropdown-content">
+					<a href="admin.html">Admin</a>
+					<a href="user.html">User</a></li>
+				</div>
+			</div>
+		</ul>
+	</main>
+	
+	<h1>QUICK TICKETS</h1>
+	<form method="GET" action="" >
+		
+		<h3>SELECT A MOVIE</h3>
+		<select id="MovieSelection" name="movie">
+			<option>ERROR</option>
+		</select>
+		<br><br>
+		
+		<h3>SELECT A CINEMA</h3>
+		<select id="CinemaSelection" name="cinema">
+			<option>ERROR</option>
+		</select>
+		<br><br>
+		
+		<h3>SELECT A SESSION</h3>
+		<select id="SessionSelection" name="session">
+			<option>ERROR</option>
+		</select>
+		<br><br>
+		
+		<a href="seat.html" class="button">Continue to buy tickets</a>
+	</form>
+	
+	<h1>COMING SOON</h1>
+	
+	<div id="left">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/8_rTIAOohas" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+	
+	<div id="right">
+		<object width="900" height="500" data="home.xml"></object>
+	</div>
+</body>
+</html>	

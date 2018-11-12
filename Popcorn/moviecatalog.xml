@@ -1,0 +1,210 @@
+<?xml version="1.0" ?> 
+<?xml-stylesheet type="text/xsl" href="moviecatalog.xsl"?>
+<!DOCTYPE catalog SYSTEM "moviecatalog.dtd">
+
+<catalog xmlns:xsl="http://www.w3.org/2001/XMLSchema-instance"
+                 xsl:noNamespaceSchemaLocation="moviecatalog.xsd">
+				 
+	<movie movieID="m1001" genre="action">
+		<title>Sicario: Day Of The Soldado</title>
+		<director>Stefano Sollima</director>
+		<duration>2hr 2min</duration>
+		<session>2:15 pm</session>
+		<ReleaseDate>28th June 2018</ReleaseDate>
+		<casts>
+			<cast>Josh Brolin</cast>
+			<cast>Benicio Del Toro</cast>
+		</casts>
+		<language>English</language>	
+		<synopsis>
+			<![CDATA[The drug war on the US-Mexico border has escalated as the cartels have begun 
+	trafficking terrorists across the US border. To fight the war, federal agent Matt Graver 
+	re-teams with the mercurial Alejandro.
+	]]>
+		</synopsis>	
+	</movie>
+
+
+	<movie movieID="m1002" genre="action">
+		<title>Jurassic World: Fallen Kingdom</title>
+		<director>Juan Antonio Bayona</director>
+		<duration>2hr 17min</duration>
+		<session>12:45 pm</session>
+		<ReleaseDate>7th June 2018</ReleaseDate>
+		<casts>
+			<cast>Chris Pratt</cast>
+			<cast>Bryce Dallas Howard</cast>
+		</casts>
+		<language>English</language>
+		<synopsis>
+			<![CDATA[Four years after the Jurassic World theme park is closed down, 
+	a once dormant volcano on Isla Nublar is now active and threatens to extinguish all life on the island, 
+	including the dinosaurs. Owen and Claire return to try and save the dinosaurs. While there, 
+	Owen searches for his lead raptor Blue but stumbles upon a conspiracy that could disrupt the entire planet's natural order.
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1003" genre="animation">
+		<title>Incredibles 2</title>
+		<director>Brad Bird</director>
+		<duration>2hr 8min</duration>
+		<session>7:15 pm</session>
+		<ReleaseDate>14th June 2018</ReleaseDate>
+		<casts>
+			<cast>Holly Hunter</cast>
+			<cast>Samuel L. Jackson</cast>
+		</casts>
+		<language>English</language>
+		<synopsis>
+			<![CDATA[With Elastigirl out fighting crimes, the Parr family struggles 
+	to maintain a normal life as this means Mr. Incredible will have to stay home to 
+	take care of their just as super-powered children. They soon discover that the youngest, 
+	Jack-Jack, has secret powers. The Parr family, along with Frozone, also has to battle a new villain, The Underminer.
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1004" genre="romance">
+		<title>Brother Of The Year</title>
+		<director>Witthaya Thongyooyong</director>
+		<duration>1hr 48min</duration>
+		<session>11:45 pm</session>
+		<ReleaseDate>28th June 2018</ReleaseDate>
+		<casts>
+			<cast>Sunny Suwanmethanont</cast>
+			<cast>Urassaya Sperbund</cast>
+		</casts>
+		<language>Thai</language>
+		<synopsis>
+			<![CDATA[Chut (bro) and Jane (sis) fought over everything. 
+	It’s all because Jane acts more like a mother than a sister and Chut 
+	likes to make himself a burden instead of being an older brother. 
+	The only time Chut will be a brother is when Jane has a boyfriend. 
+	Chut will bully Jane admirers into leaving her alone and considers this 
+	as pay back. And Jane tries hard to keep her relationship with Moji 
+	a secret from Chut to protect the love of her life.
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1005" genre="animation">
+		<title>Love, Chunibyo And Other Delusions! Take On Me</title>
+		<director>Tatsuya Ishihara</director>
+		<duration>1hr 55min</duration>
+		<session>3:05 pm</session>
+		<ReleaseDate>28th June 2018</ReleaseDate>
+		<casts>
+			<cast>Jun Fukuyama</cast>
+			<cast>Maaya Uchida</cast>
+		</casts>
+		<language>Japanese</language>
+		<synopsis>
+			<![CDATA[Rikka is now a third-year student, but she still has "chunibyo" syndrome. 
+	University entrance exams loom on the horizon, and it's spring break, and Yūta and Rikka are together as usual. 
+	One day, Rikka's older sister Toka declares that she's going to take Rikka to Italy with her, as Toka is moving to 
+	Italy for work and she thinks they should move together as a family. Yuta understands Toka's opinion, but thinks that 
+	at this rate he and Rikka will be separated. Shinka and the other members suggest that Yuta and Rikka should "elope," 
+	and thus sets the stage for Yuta and Rikka's travels throughout Japan in their escape drama.
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1006" genre="horror">
+		<title>Blok 404</title>
+		<director>Isma Aizal Yusoof</director>
+		<duration>1hr 33min</duration>
+		<session>12:05 am</session>
+		<ReleaseDate>28th June 2018</ReleaseDate>
+		<casts>
+				<cast>Zamarul Hisham</cast>
+				<cast>Raja Azri</cast>
+		</casts>
+		<language>Malay</language>
+		<synopsis>
+			<![CDATA[A bad breakup leads to a man turning psychotic and he has to be admitted into a mental asylum. 
+	After his release, he reunites with his family. The four of them now manage a guest house located in the forest. 
+	It's not a normal guest house, however, as guests who stay they end up getting tortured and killed by the family.
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1007" genre="action">
+		<title>Kaala</title>
+		<director>Pa.Ranjith</director>
+		<duration>3hr 20min</duration>
+		<session>11:45 am</session>
+		<ReleaseDate>7th June 2018</ReleaseDate>
+		<casts>
+				<cast>Rajinikanth</cast>
+				<cast>Nana Patekar</cast>
+		</casts>
+		<language>Tamil</language>
+		<synopsis>
+			<![CDATA[Kaala Karikaalan is a representative of the people living in Dharavi, a big slum in Mumbai. 
+	When a political leader tries to grab the land they are living in, Kaala rises to the occasion and takes his 
+	people on a journey to resist the politcian’s plans, like a true leader.
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1008" genre="action">
+		<title>Solo: A Star Wars Story</title>
+		<director>Ron Howard</director>
+		<duration>2hr 58min</duration>
+		<session>8:45 pm</session>
+		<ReleaseDate>24th May 2018</ReleaseDate>
+		<casts>
+				<cast>Emilia Clarke</cast>
+				<cast>Alden Ehrenreich</cast>
+				<cast>Woody Harrelson</cast>
+		</casts>
+		<language>English</language>
+		<synopsis>
+			<![CDATA[During an adventure into a dark criminal underworld, Han Solo meets his future copilot 
+	Chewbacca and encounters Lando Calrissian years before joining the Rebellion. 
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1009" genre="action">
+		<title>Avengers: Infinity War</title>
+		<director>Joe Russo, Anthony Russo</director>
+		<duration>3hr</duration>
+		<session>4:15 pm</session>
+		<ReleaseDate>26th April 2018</ReleaseDate>
+		<casts>
+				<cast>Robert Downey Jr.</cast>
+				<cast>Josh Brolin</cast>
+				<cast>Chris Hemsworth</cast>
+		</casts>
+		<language>English</language>
+		<synopsis>
+			<![CDATA[An unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, 
+	Marvel Studios’ “Avengers: Infinity War” brings to the screen the ultimate, deadliest showdown of all time. The Avengers and 
+	their Super Hero allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of 
+	devastation and ruin puts an end to the universe.
+	]]>
+		</synopsis>	
+	</movie>
+
+	<movie movieID="m1010" genre="crime">
+		<title>Believer</title>
+		<director>Lee Hae-young</director>
+		<duration>2hr 22min</duration>
+		<session>7:35 pm</session>
+		<ReleaseDate>July 5th 2018</ReleaseDate>
+		<casts>
+				<cast>Cho Jin-Woong</cast>
+				<cast>Ryu Jun-Yeol</cast>
+				<cast>Kim Sung-Ryung</cast>
+		</casts>
+		<language>Korean</language>
+		<synopsis>
+			<![CDATA[This movie is a Korean remake of Johnnie To's action thriller "Drug War". 
+	It follows an ambitious cop working hard to bring down a mysterious crime boss. 
+	He does so by teaming up with a low-level drug dealer who wants revenge.
+	]]>
+		</synopsis>	
+	</movie>
+</catalog>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="admin.xsl" ?>
+<!DOCTYPE adminprofile SYSTEM "admin.dtd">
+<adminprofile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="admin.xsd">
+    
+    <admin id="001">
+	<image_url>https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-male-3-512.png</image_url>
+        <name>&#160;&#160;&#160;&#160;&#160;Full name: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Oliver Smith</name>
+ <birthday_date>&#160;&#160;&#160;&#160;&#160;Date of Birth: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;15 Jun 1994</birthday_date>
+<address>
+		&#160;&#160;&#160;&#160;&#160;Address: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;1, Taman Putra Prima, Puchong, Selangor
+        </address>       
+	   <email>&#160;&#160;&#160;&#160;&#160;Email: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;oliversmith@gmail.com</email>
+        
+		<language>&#160;&#160;&#160;&#160;&#160;Language: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;English, Malay</language>
+        
+		<employee>&#160;&#160;&#160;&#160;&#160;Employee ID: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;P13</employee>
+        
+		
+        <position>
+          &#160;&#160;&#160;&#160;&#160;Job Title: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Back-End Developer
+        </position>
+        <telephone> &#160;&#160;&#160;&#160;&#160;Telephone No.: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+86589378494</telephone>
+        <branch address="puchong">&#160;&#160;&#160;&#160;&#160;Branch: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Popcorn Movie Theatre Sunway</branch>
+        
+        
+    </admin>
+    
+</adminprofile>

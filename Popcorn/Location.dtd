@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT cinema (theatre)*>
+<!ELEMENT theatre (location|noOfHall|seatingCapacity)*>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT noOfHall (#PCDATA)>
+<!ELEMENT seatingCapacity (#PCDATA)>

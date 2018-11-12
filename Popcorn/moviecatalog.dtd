@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT catalog (movie)*>
+<!ELEMENT movie (title|director|duration|session|ReleaseDate|casts|language|synopsis)*>
+<!ATTLIST movie
+    movieID CDATA #IMPLIED
+    genre CDATA #IMPLIED
+  >
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT session (#PCDATA)>
+<!ELEMENT ReleaseDate (#PCDATA)>
+<!ELEMENT casts (cast)*>
+<!ELEMENT cast (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT synopsis (#PCDATA)>
